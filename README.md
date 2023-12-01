@@ -5,6 +5,8 @@
 git clone https://github.com/harryprayiv/purs-nix-halogen-template.git halogen-project
 cd halogen-project/
 nix develop
+
+# then wait for the nix shell environment to build 
 purs-nix compile
 vite --open
 ```
